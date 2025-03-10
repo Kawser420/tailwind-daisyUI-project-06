@@ -1,0 +1,14 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* CSS Style */
+/* this font is not working */
+/* .manrope-font-family {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* now this is working */
+.font-family {
+  font-family: "Manrope", sans-serif;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI CSS Play CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/4ee108a205.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tailwind Custom Color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "icon-primary": "#ABEF5F",
+              "gray-primary": "#737373",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="md:w-4/5 md:mx-auto lg:w-5/6 lg:mx-auto font-family">
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a class="font-semibold" href="#">Home</a></li>
+                <li><a class="text-gray-primary" href="#">Service</a></li>
+                <li><a class="text-gray-primary" href="#">Portfolio</a></li>
+                <li><a class="text-gray-primary" href="#">Blogs</a></li>
+                <li><a class="text-gray-primary" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="flex justify-center items-center">
+              <span
+                ><i
+                  class="fa-solid fa-arrow-right bg-icon-primary p-2 rounded-full -rotate-60"
+                ></i
+              ></span>
+              <h3 class="text-xl md:text-2xl lg:text-3xl ml-2 font-semibold">
+                Riterio
+              </h3>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-semibold" href="#">Home</a></li>
+              <li><a class="text-gray-primary" href="#">Service</a></li>
+              <li><a class="text-gray-primary" href="#">Portfolio</a></li>
+              <li><a class="text-gray-primary" href="#">Blogs</a></li>
+              <li><a class="text-gray-primary" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-btn-primary">Bo</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <main></main>
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>

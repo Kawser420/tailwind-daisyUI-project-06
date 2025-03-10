@@ -46,7 +46,7 @@
     <!-- Header Section -->
     <header>
       <!-- Navbar -->
-      <nav>
+      <nav class="">
         <div class="navbar w-5/6 mx-auto md:w-full lg:w-full">
           <div class="navbar-start">
             <div class="flex justify-center items-center">
@@ -158,13 +158,47 @@
         </div>
       </nav>
       <!-- Banner Area -->
-      <div>
-        <!-- Banner Image -->
-        <div>
-          <img src="assets/banner.png" alt="" />
+      <div class="w-5/6 md:w-5/6 lg:w-full mx-auto">
+        <div class="flex justify-center items-center text-center py-10">
+          <!-- Banner Image & Text -->
+          <div class="space-y-5">
+            <img
+              class="block mx-auto"
+              src="assets/banner.png"
+              alt="Home image"
+            />
+            <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="text-gray-primary w-5/6 mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <button
+              class="btn bg-green-300 px-4 py-5 font-bold text-sm rounded-2xl"
+            >
+              View Details
+              <span class="bg-icon-primary p-1 rounded-full"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
         </div>
-        <!-- Banner Text -->
-        <div></div>
       </div>
     </header>
     <!-- Main Section -->

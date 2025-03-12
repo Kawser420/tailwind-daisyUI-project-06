@@ -1,3 +1,4 @@
+/*---------------------------------------------- CSS Style Start -----------------------------------*/
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 /* CSS Style */
@@ -12,18 +13,22 @@
 .font-family {
   font-family: "Manrope", sans-serif;
 }
-
+/* background image */
 .bg-next {
   background-image: url(../assets/bg.jpg);
   padding: 50px;
   border-radius: 10px;
 }
+/* input next level members */
 input {
   padding: 3px;
 }
+/* footer style  */
 .bg-footer {
   padding: 50px;
 }
+
+/* laptop and desktop  */
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   textarea {
     width: 665px;
@@ -32,3 +37,4 @@ input {
     width: 665px;
   }
 }
+/*----------------------------------------- CSS Style End ------------------------------------- */
